@@ -1,0 +1,53 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+.mvn/extensions.xml
+
+target/
+gradle/
+.gradle/
+build/
+kotlin-js-store/
+
+node_modules/
+out-tsc/
+coverage/
+yarn-debug.log*
+yarn-error.log*
+
+# Any generated files from webpack
+waddle-og/src/main/webapp/static/webpack/
+**/dist/
+
+*.log
+node/
+
+storybook-static/*
+
+.project
+.settings
+.classpath
+**/.project
+**/.settings
+**/.classpath
+**/.factorypath
+ajcore.*.txt
+
+# Mac files
+*.DS_Store
+/nohup.out
+
+#users's hooks
+/scripts/hooks/user/*
+
+#ESLint
+.eslintcache
+
+#dynamically generated property file
+waddle-og/src/main/resources/messages.properties
+
+# Generated in the pipeline builds
+**/git.properties
+/waddle-monolith/private/
